@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+
+
+.container-fluid{
+    display:flexbox;
+font-family:cursive;
+color:white;
+
+}
+
+.form-group{
+    
+    margin-top: 20px;
+    
+}
+
+
+.parrafo-1{
+  display:flex;
+  font-size: 10px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+
+.btn{
+    display:flex;
+   
+    justify-content:center;
+}
+
+
+
+
+
+a:hover {
+    background-color:rgb(76, 148, 76);
+  }
