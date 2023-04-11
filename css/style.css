@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+header{
+ width: 100%;
+ height: 100px;
+ background-color: blue;
+
+}
+
+.iconos{
+width: 80px;
+ } 
+
+
+.iconos img{
+    width: 100%;
+
+}
+
+.title p{
+
+    font-size: 20px;
+    margin: 0px;
+}
+.title h3{
+
+ font-size: 30px;
+ margin: 0px;
+
+}
+.efect{
+ width: 80px;
+
+}
+
+.efect img{
+    width: 100%;
+}
+
+
+
