@@ -42,14 +42,26 @@ width: 50px;
     width: 100%;
 }
 
-.escudo p{
+.escudo{
+    width: 30%;
+    margin-top:30px;
+    margin-right: 20px;
 
+}
+.escudo p{
+    color: aliceblue;
     border-right: 1px solid aliceblue ;
-    font-size: 30px;
+    border-left: 1px solid aliceblue ;
+    font-size: 20px;
+    padding-left: 20px;
 }
 .escudo span{
-    border-left: 1px solid aliceblue ;
-    font-size: 30px;
+    margin-right: 2px;
+    font-size: 20px;
 }
 
-
+.navbar{
+    width: 100%;
+    background:linear-gradient(darkblue, black);
+    height: 30px; 
+}
