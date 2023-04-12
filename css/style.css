@@ -3,17 +3,40 @@
     padding: 0;
 
 }
+body{
+
+width: 1075px;
+margin: 0 auto;
+
+}
+
+.banner{
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+
+img{
+   width: 70%;
+
+
+}
+
+
+
 
 header{
  width: 100%;
  height: 100px;
- background-color: blue;
 
 }
 
 .iconos{
-margin: 15px;    
-width: 50px;
+margin: 5px;    
+width: 100px;
  } 
 
 
@@ -40,20 +63,20 @@ width: 50px;
 
 .efect img{
     width: 100%;
+    height: 100px;
 }
 
 .escudo{
-    width: 30%;
-    margin-top:30px;
-    margin-right: 20px;
+    margin-top: 50px;
+    margin-right: auto
 
 }
 .escudo p{
-    color: aliceblue;
-    border-right: 1px solid aliceblue ;
-    border-left: 1px solid aliceblue ;
+    border-right: 1px solid rgb(113, 92, 59) ;
+    border-left: 1px solid rgb(113, 92, 59) ;
     font-size: 20px;
     padding-left: 20px;
+    padding-right: 10px;
 }
 .escudo span{
     margin-right: 2px;
@@ -62,6 +85,78 @@ width: 50px;
 
 .navbar{
     width: 100%;
-    background:linear-gradient(darkblue, black);
-    height: 30px; 
+    background:linear-gradient(rgb(179, 132, 32), rgb(74, 75, 43));
+    height: 50px;
 }
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: 1px solid green;
+    margin-top: 100px
+
+}
+
+
+.container{
+
+    width: 100%;
+}
+.caja{
+margin-top: 25px;
+width: 300px;
+}
+.caja img{
+    width: 100%;
+}
+.caja1{
+    margin-top: 25px;
+    width: 300px;
+    
+}
+.caja1 img{
+
+    width: 100%;
+}
+
+.caja2{
+margin-top: 25px;
+width: 300px;
+
+
+}
+.caja2 img{
+
+    width: 100%;
+}
+.caja3{
+    margin-top: 25px;
+    width: 300px;
+    
+
+}
+.caja3 img{
+    width: 100%;
+}
+.caja4{
+    margin-top: 25px;
+    width: 300px;
+    
+}
+.caja4 img{
+
+    width: 100%;
+}
+
+.caja5{
+    margin-top: 25px;
+    width: 300px;
+    
+    
+    }
+    .caja5 img{
+    
+        width: 100%;
+    }
+    

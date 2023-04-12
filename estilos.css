@@ -1,8 +1,5 @@
 body{
-    background-color: black;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size:cover ;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -19,7 +16,6 @@ color:white;
     margin-top: 20px;
     
 }
-
 
 .parrafo-1{
   display:flex;
