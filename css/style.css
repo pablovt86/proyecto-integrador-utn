@@ -172,3 +172,18 @@ width: 300px;
         width: 100%;
     }
     
+
+    @media (max-width: 320px) {
+      
+        .title, .efect{
+            display: none;
+        }  
+        .escudo {
+            display: none;
+        }   
+        .navbar, .banner,.container-body,.footer, .container-header{
+
+            width: 320px;
+        }   
+
+      }
