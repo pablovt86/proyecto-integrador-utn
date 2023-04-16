@@ -8,7 +8,7 @@ footer{
     .container{
     
     display:flex;
-     
+    
     justify-content: center;
 
     }
@@ -18,9 +18,9 @@ footer{
     
       .img-sponsors{
     display :flex;
-    margin-left: 60px;
-    margin-right: 90px;
-    width:90px;
+    margin-left: 30px;
+    margin-right: 50px;
+    width:80px;
     height:90px;
     
       }
@@ -28,7 +28,7 @@ footer{
 .container2{
 display:flex;
 justify-content: center;
-margin-top:80px ;
+margin-top:80px;
 
 }
 
@@ -45,21 +45,24 @@ display:flex;
 justify-content: center ;
 }
 
+
+
 .logo-st{
-display:flex;
-width:90px;
+display:inline-flex;
+width:70px;
 height:90px;
-margin-right:545px;
+margin-right:500px;
+margin-left:21px;
 
 }
 
 
 
 .skull{
-  display:flex;
-  width:90px;
+  display:inline-flex;
+  width:105px;
   height:90px;
- margin-left:550px;
+ margin-left:210px;
   }
 
 
@@ -104,24 +107,33 @@ a:hover{
   color:red;
 }
 
-.hr{
-
-color:white;
+hr{border:solid ;
+    height: 1px;
+    border-color:white;
 }
 
 .container4{
 display:flex;
+align-items: center;
 
 }
 
-.p-footer1{
-display:flex;
-color:white;
 
+
+.p1{
+  display:flex;
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: auto;
+margin-left:10px;
+color:white;
 }
 
-.p-footer-2{
-color:white;
-display:flex;
+.p2{
+  display:flex;
 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: auto;
+margin-left:750px;
+color:white;
 }
