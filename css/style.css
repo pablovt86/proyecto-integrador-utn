@@ -7,6 +7,8 @@ body{
 
 width: 1200px;
 margin: 0 auto;
+font-family: montserrat, arial, verdana;
+
 
 }
 
@@ -93,6 +95,7 @@ width: 100px;
 .container-body{
     display: flex;
      width: 100%;
+     flex-wrap: wrap;
  }
 
 
@@ -173,7 +176,293 @@ width: 300px;
     }
     
 
-    @media (max-width: 320px) {
+/* inicio de footer */
+
+.footer{
+
+    background:linear-gradient(white,rgba(155, 94, 9, 0.771));
+    
+    
+    
+      }
+    .container{
+    
+    display:flex;
+    
+    justify-content: center;
+
+    }
+  
+
+    
+    
+      .img-sponsors{
+    display :flex;
+    margin-left: 30px;
+    margin-right: 50px;
+    width:80px;
+    height:90px;
+    
+      }
+    
+.container2{
+display:flex;
+justify-content: center;
+margin-top:80px;
+
+}
+
+i.fa-brands{
+display:flex;
+font-size:35px ;
+margin-top: 40px;
+margin-left:50px;
+margin-right:30px;
+
+}
+.container3{
+display:flex;
+justify-content: center ;
+}
+
+
+
+.logo-st{
+display:inline-flex;
+width:70px;
+height:90px;
+margin-right:500px;
+margin-left:21px;
+
+}
+
+
+
+.skull{
+  display:inline-flex;
+  width:105px;
+  height:90px;
+ margin-left:210px;
+  }
+
+
+.fcsp{
+display:flex;
+justify-content: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style:normal;
+margin-top: -50px;
+
+}
+
+
+
+.nav-2{
+display:flex;
+justify-content: center;
+
+
+}
+
+.item{
+display:flex;
+margin-top:5px;
+align-items: center;
+justify-content: center;
+margin-right: 70px;
+margin-left: 65px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:30px;
+
+}
+
+a{
+text-decoration: none;
+color:white;
+
+
+}
+
+a:hover{
+  color:red;
+}
+
+hr{border:solid ;
+    height: 1px;
+    border-color:white;
+}
+
+.container4{
+display:flex;
+align-items: center;
+
+}
+
+
+
+.p1{
+  display:flex;
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: auto;
+margin-left:10px;
+color:white;
+}
+
+.p2{
+  display:flex;
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: auto;
+margin-left:750px;
+color:white;
+}
+
+/* tipo wizard  */
+
+
+
+
+
+
+/* end wizard */
+
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+.container-wizard{
+   width: 100%;
+    background: 
+    linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+/*form styles*/
+#msform {
+	width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: #27AE60;
+	color: white;
+}
+
+
+
+
+
+
+
+
+    /* end footer */
+
+    @media (max-width: 320px )and (max-width: 600px) {
       
         .title, .efect{
             display: none;
@@ -185,5 +474,28 @@ width: 300px;
 
             width: 320px;
         }   
+
+        .banner img {
+          width:95%
+
+        }
+
+        .container-body{
+            display: block;
+        }
+
+        .contenedor{
+            flex-direction: column;
+        }
+
+        .footer{
+            display: block;
+        }
+
+        .container,.container2, .container3, .container4{
+            width: 320px;
+        }
+
+
 
       }
