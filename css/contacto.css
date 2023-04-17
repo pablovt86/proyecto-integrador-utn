@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    background-color: black;
+    background-image: url(/img/contacto.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+   
+}
+.container{
+    display:flex;
+}
+p {
+
+    display:flex;
+align-content: right;
+    color:white;
+ margin-right: auto;
+ margin-left:auto;
+margin-top: 360px;
+}
+
+.h-location{
+    display:inline-flex;
+color:white;
+margin-left: 200px;
+}
