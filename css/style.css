@@ -531,7 +531,11 @@ outline: none;
 
 
 
-
+#ul li{
+    color: #333;
+    text-decoration: none;
+    
+}
 
 
 
