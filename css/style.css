@@ -185,7 +185,7 @@ width: 300px;
     
     
       }
-    .container{
+    .container-footer{
     
     display:flex;
     
@@ -327,6 +327,81 @@ color:white;
 
 /* end wizard */
 
+/* contactos */
+.contactos{
+    display: flex;
+    flex-direction: column;
+    width: 498px;
+    margin: 20px auto
+
+}
+.contactos .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20px; */
+    width: 100%;
+   
+    margin: 21px auto;
+    border: 1px solid brown;
+}
+
+
+
+.contactos .content .nombre-contactos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contactos .content input{
+    color: brown;
+    margin: 10px;
+    background: none;
+    border:none;
+    border-bottom: 1px solid brown;
+    width: 90%
+}
+.contactos .content input:focus{
+   outline: none;
+
+}
+.contactos .content textarea{
+    color: brown;
+    margin: 15px;
+    background: none;
+    border: 1px solid brown;
+    width: 90%;
+}
+
+.contactos .content textarea:focus{
+outline: none;
+}
+
+
+
+.contactos .title-contacto{
+    margin: 0 auto;
+}
+.contactos .content .btn{
+    display: flex;
+    margin: 25px auto;
+    background:none;
+    color: brown;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid brown;
+
+}
+
+
+/* end-contactos */
+
+
+
+
+
 /*custom font*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 .container-wizard{
@@ -462,7 +537,7 @@ color:white;
 
     /* end footer */
 
-    @media (max-width: 320px )and (max-width: 600px) {
+    @media (max-width: 320px ) {
       
         .title, .efect{
             display: none;
@@ -485,17 +560,38 @@ color:white;
         }
 
         .contenedor{
+            width: 320px;
             flex-direction: column;
         }
 
         .footer{
             display: block;
         }
+        .container-footer{
 
-        .container,.container2, .container3, .container4{
+            display: none;
+        }
+        
+        .container2, .container3, .container4{
             width: 320px;
         }
 
 
+        .container-wizard{
+            width: 320px;
+        }
+        #msform fieldset { 
+            
+            margin: 0;
+        }
+        #progressbar li {
+        width: auto;
 
       }
+   
+      .contactos{
+        width: 320px;
+      }
+
+
+    }
